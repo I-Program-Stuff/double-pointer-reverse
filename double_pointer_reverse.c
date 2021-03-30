@@ -2,7 +2,7 @@
 #include <string.h>
 
 int main() {
-    char word[] = "Word";
+    char word[] = "Word"; /* Example string change to any you want. */
     char* p1 = &word[0];
     char* p2 = &word[strlen(word)-1];
     if(!(strlen(word) % 2 == 0)){
